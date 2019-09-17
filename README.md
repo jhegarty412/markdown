@@ -1,6 +1,5 @@
 # markdown
 
-```
 [Httpd docs](https://httpd.apache.org/docs/2.4/mod/mod_proxy_fcgi.html)
 **ansible variables**
       apache_service_modules:
@@ -23,5 +22,5 @@
 **httpd directives**
 <IfModule proxy_module>
 ProxyPassMatch ^/(.*\.php)$ fcgi://127.0.0.1:9000/path/to/your/documentroot/$1
-</IfModule>```
+</IfModule>
 
